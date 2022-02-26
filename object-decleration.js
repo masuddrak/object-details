@@ -10,4 +10,12 @@ const person=new Object()
 // const human=Object.create(null)
 const human=Object.create(student)
 
-console.log(human.age)
+// 4.usin class object
+class Pepole{
+    constructor(name,age){
+        this.name=name
+        this.age=age
+    }
+}
+const pep=new Pepole('sakib',88)
+console.log(pep)
