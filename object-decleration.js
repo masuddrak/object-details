@@ -17,5 +17,10 @@ class Pepole{
         this.age=age
     }
 }
+// functional object
 const pep=new Pepole('sakib',88)
-console.log(pep)
+function mans(name){
+    this.name=name
+}
+const man=new mans('jhogkar')
+console.log(man)
